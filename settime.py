@@ -6,6 +6,8 @@
 # To prevent the script from asking your password when executing `sudo date`, following line must be added to /etc/sudoers file:
 # <user>    ALL=(ALL)    NOPASSWD:   /bin/date
 # Remember to use `sudo visudo` to edit sudoers file.
+# Also, consider executing this script every time at reboot, placing it in a given directory and adding a crontab with `crontab -e`
+# @reboot python3 <script directory> &
 
 # Author: Mario Muniz <mario462@gmail.com>
 
