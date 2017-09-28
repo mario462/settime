@@ -1,5 +1,3 @@
-
-
 # Author: Mario Muniz <mario462@gmail.com>
 
 #!/usr/bin/python3
