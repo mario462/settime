@@ -19,7 +19,7 @@ def getDateTime():
     return result['formatted']
 
 def linuxSetTime(datetime):
-    os.system('sudo date -s \'' + datetime + '\'')
+    os.system('sudo /bin/date -s \'' + datetime + '\'')
 
 def windowsSetTime(datetime):
     try:
